@@ -1,0 +1,12 @@
+/* esercizio 1 */
+.ex-1-square:hover{
+    background: red;
+    transition: background-color 2s;
+}
+
+.ex-2-square:active{
+    width: 200px;
+    height: 200px;
+    transition: width 2s, height 2s;
+}
+
