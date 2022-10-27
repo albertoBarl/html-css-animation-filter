@@ -31,3 +31,14 @@
 .ex-6-img:hover{
     filter: grayscale(1);
 }
+
+.ex-7-img:hover{
+    filter: grayscale(1) brightness(2);
+    transition: filter 1s;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(1) brightness(2);
+    border-radius: 20px;
+    transition: filter 1s, border-radius 1s;
+}
