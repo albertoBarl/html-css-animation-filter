@@ -7,7 +7,7 @@
 /* ex 2 */
 .ex-2-square:active{
     width: 1000px;
-    transition: width 2s, height 2s;
+    transition: width 2s;
 }
 
 /* ex 3 */
@@ -27,6 +27,7 @@
     transform: scale(2);
     transition: transform 2s;
 }
+
 .ex-5-square:active{
     transform: scale(0.5);
     transition: transform 2s;
@@ -77,4 +78,23 @@
     0%{transform: rotate(0);}
     75%{transform: rotate(270deg);}
     100%{transform: rotate(0);}
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: movetop12 2s;
+}
+@keyframes movetop12 {
+    0%{left:10%}
+    50%{left: 60%;}
+    100%{left: 10%;}
+}
+
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: movebottom12 2s;
+}
+@keyframes movebottom12 {
+        0%{right:20%}
+        50%{right: 60%;}
+        100%{right: 20%;}
 }
